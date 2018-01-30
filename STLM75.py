@@ -110,8 +110,7 @@ class STLM75_Base:
 	# Register T_OS
 	# The TOS register is a two-byte (16-bit) READ/WRITE register that stores the userprogrammable
 	#       upper trip-point temperature for the thermal alarm in two’s complement
-	#       format (see Table 8 on page 19). This register defaults to 80 °C at power-up (i.e., 0101 0000
-	#       0000 0000).
+	#       format (see Table 8 on page 19). 
 	#       The format of the TOS register is identical to that of the temperature register. The MSB
 	#       position contains the sign bit for the digital temperature and Bit14 contains the temperature
 	#       MSB.
@@ -131,8 +130,7 @@ class STLM75_Base:
 	# Register T_HYS
 	# THYS register is a two-byte (16-bit) READ/WRITE register that stores the userprogrammable
 	#       lower trip-point temperature for the thermal alarm in two’s complement
-	#       format (see Table 8). This register defaults to 75 °C at power-up (i.e., 0100 1011 0000
-	#       0000).
+	#       format (see Table 8). 
 	#       The format of this register is the same as that of the temperature register. The MSB position
 	#       contains the sign bit for the digital temperature and bit14 contains the temperature MSB. 
 	
